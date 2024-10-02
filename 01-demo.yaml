@@ -3,7 +3,7 @@
     - ping:
 
 - name: Sample playbook
-  host: all
+  hosts: all
   tasks:
     - name: Print Hello world
       ansible.builtin.debug:
