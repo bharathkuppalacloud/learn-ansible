@@ -1,0 +1,10 @@
+- hosts: all
+  tasks:
+    - ping:
+
+- name: Sample playbook
+  host: all
+  tasks:
+    - name: Print Hello world
+      ansible.builtin.debug:
+        msg: Hello world
